@@ -125,7 +125,7 @@ runs:
         workdir: ${{ inputs.root }}/${{ inputs.workdir }}
 
     - if: ${{ inputs.pylint == 'true' }}
-      uses: nxpkg/action-pylint@0.0.4
+      uses: nxpkg/action-pylint@0.1.1
       with:
         github_token: ${{ inputs.github_token }}
         workdir: ${{ inputs.root }}/${{ inputs.workdir }}
