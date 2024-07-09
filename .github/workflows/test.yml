@@ -15,7 +15,7 @@ jobs:
       # Checkout this repo and Python Package Template repo for validation testing.
       - uses: actions/checkout@v2
         with: 
-          repository: khulnasoft/python-package-template
+          repository: khulnasoft/python-repo-template
           ref: 'main'
           path: pyproject
           clean: true
