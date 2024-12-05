@@ -131,7 +131,7 @@ runs:
         workdir: ${{ inputs.root }}/${{ inputs.workdir }}
 
     - if: ${{ inputs.pytest == 'true' || inputs.pypi_publish  == 'true' || inputs.pyright  == 'true'}}
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v5
       with:
         python-version: '3.7'
 
